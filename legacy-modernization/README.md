@@ -1,31 +1,17 @@
-# Southtown Plant Co. — Week 2 Inherited Client Site
+# Out With The Old In With The New Website Project
 
-## Scenario
-WebWorks Studio has inherited this small-business website from a previous developer.
+**Changes and Improvements**
 
-The site is functional, but the underlying front-end code reflects practices common in older websites. Your assignment is to modernize the code while preserving the client's content and general visual identity.
+The changes that have been improved for the website is getting the old codes that were used back in the days and putting in new codes, and semantic tags. Instead of using fonts, and other codes that weren’t necessary to be put into the website, making it look messy. The reason why it improves the code database so the website would look more clean and appropriate to today’s codes we use now. 
 
-## Before You Edit
-1. Keep an untouched copy of this starter project.
-2. Put your working copy in:
-   `webworks-studio/week02-build-better/`
-3. Open the entire project folder in Visual Studio Code.
-4. Preview `index.html` in a browser.
-5. Resize the browser window and observe the existing behavior before you change anything.
+## What I Intentionally Did Not Change
 
-## Important
-The inherited site is intentionally **not responsive**.
+What I didn’t change yet was the information with some text colors staying the same and images still in the website.
 
-Do not simply redesign the site from scratch. Refactor it according to the requirements in the Week 2 Canvas assignment.
+## Next Sprint 
 
-## Preserve
-- Client content
-- General color palette and visual identity
-- Working navigation and links
-- Meaningful image alternative text
-- Required site information
+The problems that I would be addressing for Week 3 is improving the HTML, an organized CSS, and having a responsive website to get accessibility.
 
-## Your Goal
-Make the code easier for another developer to understand, maintain, and extend.
+#
 
-Refer to the Canvas assignment for all required technical work, GitHub workflow, and submission directions.
+[GitHub](https://github.com/Mary-Ink)
