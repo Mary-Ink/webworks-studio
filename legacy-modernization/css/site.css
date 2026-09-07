@@ -1,94 +1,135 @@
-/* Southtown Plant Co. legacy style sheet
-   Last updated: 08/17/2000
-*/
-
 body {
-  margin-top: 18px;
-  margin-bottom: 18px;
+  margin: 18px 0;
+  background: #E9E0CF;
+  color: #2E2A27;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
-  background-color: #E8E1C9;
-  color: #333333;
 }
 
-p {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px;
-  line-height: 20px;
+.page-shell {
+  background: #fff;
+  border-top: 12px solid #23495F;
+  border-bottom: 12px solid #23495F;
+  padding: 0 20px 20px;
+  box-sizing: border-box;
 }
 
-.intro {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 16px;
-  line-height: 23px;
-  color: #4C5148;
+.site-header img {
+  margin-top: 10px;
 }
 
-h2 {
-  font-family: Georgia, "Times New Roman", serif;
-  color: #315C3D;
-  font-size: 24px;
-  margin-bottom: 8px;
+.contact {
+  text-align: right;
+  margin-top: 32px;
 }
 
-a {
-  color: #285B39;
+.site-nav {
+  background: #23495F;
+  text-align: center;
 }
 
-a:hover {
-  color: #993300;
-}
-
-.navcell {
-  background-color: #315C3D;
-  height: 34px;
-}
-
-.navcell a {
-  font-family: Arial, Helvetica, sans-serif;
-  color: #FFFFFF;
+.site-nav a {
+  padding: 8px;
+  color: #fff;
   font-size: 11px;
   font-weight: bold;
   text-decoration: none;
 }
 
-.navcell a:hover {
-  color: #FFF3B8;
+.site-nav a:hover,
+.site-nav a:focus {
+  color: #FFE9A8;
+}
+
+.hero {
+  padding: 16px 0 18px;
+  border-bottom: 4px solid #23495F;
+}
+
+h1,
+h2,
+h3 {
+  font-family: Georgia, "Times New Roman", serif;
+  color: #23495F;
+}
+
+h1 {
+  font-size: 36px;
+  margin: 8px 0 12px;
+}
+
+h2 {
+  font-size: 24px;
+  margin: 24px 0 8px;
+}
+
+h3 {
+  font-size: 17px;
+  margin-bottom: 5px;
+}
+
+p {
+  line-height: 1.45;
+}
+
+.intro {
+  font-size: 16px;
+  color: #4b4b47;
+}
+
+.special {
+  background: #F3E7C8;
+  padding: 10px;
 }
 
 .photo {
-  border: 1px solid #9E9475;
+  border: 1px solid #9b8a73;
 }
 
-.footertext {
-  font-family: Arial, Helvetica, sans-serif;
+.staff-picks {
+  border: 1px solid #D6C7AE;
+}
+
+.staff-picks article {
+  padding: 10px;
+  border-right: 1px solid #D6C7AE;
+}
+
+.content-row {
+  margin-top: 28px;
+}
+
+.quick-links {
+  padding: 10px;
+  background: #EFE4D3;
+}
+
+.about-row img {
+  margin-right: 10px;
+}
+
+.visit {
+  margin-top: 24px;
+  padding: 12px;
+  background: #F3E7C8;
+}
+
+.site-footer {
+  text-align: center;
   font-size: 11px;
-  color: #666666;
+  color: #666;
+  margin-top: 24px;
 }
 
-.footertext a {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 11px;
-}
-
-/* old notes
-.green { color: #315C3D; }
-*/
-
-td {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px;
-}
-
-/* duplicate link rules from later update */
-a:link {
-  color: #285B39;
+a {
+  color: #23495F;
 }
 
 a:visited {
-  color: #6C4E32;
+  color: #6D5548;
 }
 
-a:active {
-  color: #993300;
+a:focus {
+  outline: 2px solid #A23B2A;
+  outline-offset: 2px;
 }
