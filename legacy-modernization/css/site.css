@@ -41,9 +41,27 @@ body {
   color: #FFE9A8;
 }
 
-.hero {
-  padding: 16px 0 18px;
+.phone-label {
+  text-align: right;
+}
+
+.contact {
+  text-align: right;
+}
+
+.navrow {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.hero  {
+  display: grid;
+  grid-template-columns: 5fr 2fr;
+  gap: 20px;
   border-bottom: 4px solid #23495F;
+}
+.image {
+  text-align: right;
 }
 
 h1,
