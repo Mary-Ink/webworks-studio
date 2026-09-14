@@ -1,16 +1,21 @@
-# Out With The Old In With The New Website Project
+# Out With The Old In With The New Website Project 3
 
-**Changes and Improvements**
+**Problem**
 
-The changes that have been improved for the website is getting the old codes that were used back in the days and putting in new codes, and semantic tags. Instead of using fonts, and other codes that weren’t necessary to be put into the website, making it look messy. The reason why it improves the code database so the website would look more clean and appropriate to today’s codes we use now. 
+The new codes were missing for CSS and HTML so images are responsive, trying out new grid implementations, and clean coding.
+ 
 
-## What I Intentionally Did Not Change
+**Solution**
 
-What I didn’t change yet was the information with some text colors staying the same and images still in the website.
+I deleted some little old codes here and there, while adding new grid implementations instead of old codes that weren't needed, adding in new codes, and responsive images.
 
-## Next Sprint 
+**Why**
 
-The problems that I would be addressing for Week 3 is improving the HTML, an organized CSS, and having a responsive website to get accessibility.
+It was appropriate to make these changes because the website still needed some clean up and some rearragments.
+
+# Grid Use
+
+I was able to learn about grid uses for websites and to make the website more nicer. The major use for the grid was to move some text or images like how it was in the old website, although with this new code instead of the old ones.
 
 #
 
