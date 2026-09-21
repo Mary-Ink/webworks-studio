@@ -1,0 +1,17 @@
+{
+  "name": "week04-tailwind",
+  "version": "1.0.0",
+  "description": "WebWorks Studio has received an approved visual direction for a small promotional landing page.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.3.3",
+    "tailwindcss": "^4.3.3"
+  }
+}
