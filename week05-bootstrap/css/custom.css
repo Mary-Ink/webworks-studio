@@ -1,0 +1,162 @@
+
+:root {
+  --cedar-green: #203c35;
+  --cedar-accent: #a86643;
+  --cedar-cream: #f5f0e7;
+  --cedar-soft: #e8efeb;
+  --cedar-charcoal: #26312d;
+  --cedar-muted: #5d6a64;
+}
+
+
+body {
+  color: var(--cedar-charcoal);
+  background: #fbfaf7;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.navbar {
+  background-color: var(--cedar-green);
+}
+
+.navbar-brand {
+  letter-spacing: 0.04em;
+}
+
+.navbar .nav-link {
+  color: #fff;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+  color: var(--cedar-cream);
+}
+
+
+.hero-section {
+  background-color: var(--cedar-cream);
+}
+
+.hero-image-wrap {
+  background-color: #e2ded3;
+  border-radius: 1.5rem;
+  padding: 1.25rem;
+}
+
+.hero-image-wrap img {
+  width: 100%;
+}
+
+
+.eyebrow {
+  color: var(--cedar-accent);
+  font-size: 0.875rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+
+.btn-brand {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: var(--cedar-green);
+  --bs-btn-border-color: var(--cedar-green);
+
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #172e28;
+  --bs-btn-hover-border-color: #172e28;
+
+  --bs-btn-focus-shadow-rgb: 32, 60, 53;
+}
+
+
+
+.btn-outline-brand {
+  --bs-btn-color: var(--cedar-green);
+  --bs-btn-border-color: var(--cedar-green);
+
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: var(--cedar-green);
+  --bs-btn-hover-border-color: var(--cedar-green);
+
+  --bs-btn-focus-shadow-rgb: 32, 60, 53;
+}
+
+
+.service-card {
+  border-color: #d6ddd9;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.service-image {
+  height: 175px;
+  object-fit: cover;
+  background-color: var(--cedar-soft);
+}
+
+.service-card .card-text {
+  color: var(--cedar-muted);
+}
+
+
+.process-section {
+  background-color: var(--cedar-soft);
+}
+
+.process-section .list-group-item {
+  background-color: #fff;
+  border-color: #d6ddd9;
+}
+
+
+.contact-section {
+  background-color: var(--cedar-cream);
+}
+
+.contact-card {
+  background-color: #fff;
+  border: 1px solid #d6ddd9;
+}
+
+.contact-card a:not(.btn) {
+  color: var(--cedar-green);
+}
+
+
+.footer-section {
+  background-color: var(--cedar-green);
+  color: #fff;
+}
+
+.footer-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-link:hover,
+.footer-link:focus {
+  color: var(--cedar-cream);
+  text-decoration: underline;
+}
+
+
+a:focus-visible,
+button:focus-visible {
+  outline: 3px solid var(--cedar-accent);
+  outline-offset: 3px;
+}
+
+
+@media (max-width: 575.98px) {
+
+  .hero-section h1 {
+    font-size: 2.35rem;
+  }
+
+  .display-6 {
+    font-size: 2rem;
+  }
+
+}
